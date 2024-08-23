@@ -4,7 +4,7 @@
 
 <?php
 
-
+echo "<h3>Given Array Is [14, 31, 26, 20, 98]<br></h3>";
 $num = [14, 31, 26, 20, 98];
 
 
@@ -19,7 +19,7 @@ for ($x = 0; $x < count($num); $x++) {
 }
 
 
-echo "The sum of the given array numbers is $total\n";
+echo "<h3>The sum of the given array numbers is $total\n</h3>";
 
 ?>
 

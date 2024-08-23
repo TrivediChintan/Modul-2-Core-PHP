@@ -5,7 +5,7 @@
 
 
 <form method="post">
-<input type="Number" name="inp" placeholder="ENTER Number Between 1 To 7"><br/>
+<input style="width: 250px;" type="Number" name="inp" placeholder="ENTER Number Between 1 To 7"><br/>
 <input type="submit" value="find" name="find">
 </form>
 

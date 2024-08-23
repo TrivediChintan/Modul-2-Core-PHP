@@ -13,7 +13,7 @@
 </head>
 <body>
     <h1> Find Largest Number Out Of 3 Number</h1>
-    <form method="post" action="4.php">
+    <form method="post" action="04.Find Largest Number Out Of 3 Number.php">
         <table>
             <tr>
                 <td><input type="number" name="num1" placeholder="First Enter Any Number"></td>
@@ -47,21 +47,21 @@ if($a>$b)
 {
     if($a>$c)
     {
-        echo $a." IS Largest Number";
+        echo "<h2>". $a." Is Largest Number";
     }
     else
     {
-        echo $c." IS Largest Number";
+        echo "<h2>".$c." Is Largest Number</h2>";
     }
 
 }
 else if($b>$c)
 {
-    echo $b." IS Largest Number";
+    echo "<h2>".$b." Is Largest Number</h2>";
 }
 else
 {
-    echo $c." IS Largest Number";
+    echo "<h2>".$c." Is Largest Number</h2>";
 }
 }
     ?>

@@ -20,9 +20,9 @@ if (isset($_POST['find'])) {
             $n = $n / 10;
         }
         if ($temp == $sum) {
-            echo "The Numbers is Armstrong Number";
+            echo "The Number $temp is Armstrong Number";
         } else {
-            echo "The Number is Not Armstrong Number";
+            echo "The Number $temp is Not Armstrong Number";
         }
     }
 }

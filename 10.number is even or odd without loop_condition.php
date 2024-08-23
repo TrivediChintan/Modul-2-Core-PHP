@@ -14,7 +14,7 @@ if (isset($_POST['find'])) {
 if($number=$_POST['inp'])  
 {     
 
-$result = ["Entered Number Is Even", "Entered Number Is Odd"];
+$result = ["<h2>Entered Number Is Even </h2>", "<h2>Entered Number Is Odd </h2>"];
 
 
 $check = $number % 2;

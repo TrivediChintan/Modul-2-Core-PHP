@@ -16,11 +16,11 @@ if($year=$_POST['inp'])
      
     if( ($year % 4 == 0) && ($year % 100 != 0) || ($year % 400 == 0) )  
     {  
-        echo "$year is a Leap Year";    
+        echo "<h2>$year is a Leap Year</h2>";    
     }  
     else  
     {  
-        echo "$year is not a Leap Year";    
+        echo "<h2>$year is not a Leap Year</h2>";    
     }  
 }
 }

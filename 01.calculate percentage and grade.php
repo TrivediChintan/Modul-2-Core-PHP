@@ -13,7 +13,7 @@ $bio = $_POST['bio'];
 $eng = $_POST['eng'];
 $Perce = 0;
     $Perce = ($phy + $chem + $maths + $bio + $eng) / 5;
-    echo "Percecentage obtained by student is $Perce %</br>";
+    echo "<h2>Percecentage obtained by student is <u>$Perce</u> %</br></h2>";
 
     if ($Perce >= 90) {
         $Perce = 1;
@@ -31,23 +31,23 @@ $Perce = 0;
 
     switch ($Perce) {
         case 1:
-            echo "Grade : A";
+            echo "<h2>Grade : A</h2>";
             break;
 
         case 2:
-            echo "Grade : B";
+            echo "<h2>Grade : B</h2>";
             break;
 
         case 3:
-            echo "Grade : C";
+            echo "<h2>Grade : C</h2>";
             break;
 
         case 4:
-            echo "Grade : D";
+            echo "<h2>Grade : D</h2>";
             break;
 
         case 5:
-            echo "Grade : E";
+            echo "<h2>Grade : E</h2>";
             break;
 
         default:
@@ -67,8 +67,8 @@ $Perce = 0;
 </head>
 
 <body>
-    <h1> Calculate Percesentage and grade of 5 subject</h1>
-    <form method="post" action="1.php">
+    <h2> Calculate Percesentage and grade of 5 subject</h2>
+    <form method="post" action="01.calculate percentage and grade.php">
         <table>
             <tr>
                 <td><input type="number" name="phy" placeholder="Enter Physics Marks"></td>
